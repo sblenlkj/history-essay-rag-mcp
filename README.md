@@ -46,7 +46,7 @@
 - `search_by_quote_author`;
 - `search_by_query_and_interpretation_type`.
 
-Поиск, индексация и хранение embeddings выполняются через локальный Qdrant index. Такой вариант выбран, чтобы явно показать протокольную границу между агентом и поисковой системой.
+Поиск, индексация и хранение embeddings выполняются через локальный Qdrant index. 
 
 ## Структура проекта
 
@@ -378,12 +378,6 @@ uv sync
 
 ```bash
 uv run python -m hw_rag_mcp.mcp_server
-```
-
-Печать структуры проекта:
-
-```bash
-tree -I '.venv|__pycache__' > tree.txt
 ```
 
 Если локальный Qdrant заблокирован другим процессом:
