@@ -1,0 +1,14 @@
+{
+  "mcpServers": {
+    "history_essay_rag": {
+      "transport": "stdio",
+      "command": "uv",
+      "args": [
+        "run",
+        "python",
+        "-m",
+        "hw_rag_mcp.mcp_server"
+      ]
+    }
+  }
+}
