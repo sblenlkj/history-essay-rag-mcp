@@ -1,4 +1,4 @@
-# HW RAG MCP · History Essay Knowledge Base. Сделан Дмитрий Каневский
+# HW RAG MCP · History Essay Knowledge Base. Сделал Дмитрий Каневский
 
 Проект выполняет домашнее задание по теме **RAG и протоколы взаимодействия ИИ-агентов**.
 
